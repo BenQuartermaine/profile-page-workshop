@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: teal;
+}
+
+/* TODO */
+
+.new-font{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+  background-image: url('images/plant.jpg');
+  height: 80vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-group {
+  text-align: center;
+}
+
+.button {
+  /* line of code to make the button sit inline */
+  display: inline-block;
+  background-color: lightpink;
+  color: #444;
+  text-decoration: none;
+  padding: 16px 24px;
+  margin: 24px 24px;
+}
+
+.btn-alignment {
+  display: flex;
+  justify-content: space-around;
+}
