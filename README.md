@@ -1,4 +1,4 @@
-# Welcome to the Intro to HTML & CSS Workshop! 💅
+# Welcome to the Build Your Own Profile Page Workshop
 
 
 
