@@ -30,28 +30,29 @@ Remember, to open your file on the web browser: right click your file & Open Wit
   
 </html>
 ```
-4. Update the title of your webpage a title. `<title>`
-5. In between your `<body>` tags, let's add some HTML structure. Use an `<h1>` tag and give your site a heading.
-6. Now use a `<p>` for some text in your site. 
-7. Let's use a link in your HTML with an `<a>` tag.
-8. Lets put a `<div>` tag around all of the content we've created so far within the `<body>`.
-9. Feel free to include other HTML tags below the `<div>` you've created + be creative!
+4. Update the title of your webpage a title `<title>` in the `<head>`. This should be your name. 
+5. In between your `<body>` tags, let's add some HTML structure. Use an `<h1>` tag and give your site a heading: this should include your name. 
+6. Let's create an `<h2>` tag. The content should be your role or position, like 'Product Manager' or 'Web Developer'.
+7. Next, create an `<h3>` tag. The content should be a small sentence about you / your work. 
+8. Now use a `<p>` for some text in your site. This should include a paragraph about you / your work experience.
+9. Let's use a link in your HTML with an `<a>` tag. For the `href` in your a tag, link it to your instagram, linkedIn, or another site related to you. 
+10. Lets put a `<div>` tag around all of the content we've created so far within the `<body>`.
 
 
 
 ### Challenge 2 | CSS
 1. First, navigate to your `style.css` file. What code is already in there? What is it doing? Change the background to a . 
 2. Next, make sure to link it in the head: `<link rel="stylesheet" href="style.css">`. 
-3. From your previous challenge, you should have a `<div>` around all the content in your `<body>`. Let's give it some style! First let's give it a class with: `class="your-class-here"`. 
+3. From your previous challenge, you should have a `<div>` around all the content in your `<body>`. Let's give it some style! First let's give it a class with: `class="container"`. 
 4. For the `class` that you have created, let's give it some styling: 
-- Find a background image on Unsplash at www.unsplash.com .
-- Give the `<div>` a `background-image: url();` and use the image you found. 
 - Next, give the `<div>` some `height` & `width`. 
 - Next, change the `color` of the text in the `<div>`. 
 - Next, let's `text-align: center;` the text in our `<div>`. 
+- Next, give it a `box-shadow`. 
 - Check out more examples of CSS styling here: [W3Schools | CSS](https://www.w3schools.com/css/)
 5. Give the `<h1>` in your page some styling: 
-- Let's play with the `padding-top` and move it lower on our background image. 
+- Let's play with the `padding-top` and move it lower within our container.
+- Change the `color` of your `<h1>`.
 6. Let's add some more style to the other items on your page. Get creative! 
 - Check out some properties you can use to style your page: `color`, `background-color`, `font-size`, `object-fit: center,` `border`, `border-radius`, `padding`, `margin`, ``
 
