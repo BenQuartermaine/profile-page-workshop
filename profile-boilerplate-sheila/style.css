@@ -1,0 +1,52 @@
+
+/* Import your components here */
+@import 'components/button.css';
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #eee; /* Sheilas favorite colour */
+}
+
+/* TODO */
+
+h1 {
+  /* #168989 or teal or rgba() */
+  /*color: #168989; */
+  /*color: rgba(6, 111, 96, 0.8);*/
+  color: teal;
+}
+
+.container {
+  background-color: white;
+  margin: 32px auto;
+  text-align: center;
+  padding: 60px;
+  width: 80vw;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+p {
+  margin: 40px;
+}
+
+.btn-teal {
+  background-color: teal;
+  padding: 16px 24px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-teal:hover {
+  background-color: #498b7f;
+}
+
+.avatar {
+  height: 200px;
+}
+
+ul {
+  list-style-type: none;
+}
